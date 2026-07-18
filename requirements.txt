@@ -1,0 +1,18 @@
+# Core — geoctm.fusion / decode / degrade need only these.
+numpy>=1.21
+scipy>=1.7
+opencv-python>=4.5
+
+# Benchmark harness (tools/) — these drive the upstream CTM detector.
+# torch is pinned only by upstream's own requirement; any version that loads
+# their exp/weights/best.pt checkpoint works. CPU is fine: the full 60-track
+# benchmark takes ~2 minutes.
+torch>=1.8
+torchvision>=0.9
+imutils>=0.5.4
+pandas
+matplotlib
+tqdm
+
+# Tests
+pytest>=7.0

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: >-
+  geo-ctm: Geometry-Constrained Character Fusion for Video
+  License Plate Recognition
+message: >-
+  If you use this software, please cite both this repository
+  and the CTM paper it builds on.
+type: software
+authors:
+  - given-names: Ufuk
+    family-names: Asil
+    affiliation: OSTIM Technical University
+repository-code: 'https://github.com/ufukasia/geo-ctm'
+license: MIT
+version: 1.0.0
+date-released: '2026-07-18'
+keywords:
+  - license plate recognition
+  - ALPR
+  - multi-frame fusion
+  - video
+  - RANSAC
+  - UFPR-ALPR
+references:
+  - type: conference-paper
+    title: Character Time-series Matching For Robust License Plate Recognition
+    authors:
+      - given-names: Huy Che
+        family-names: Quang
+      - given-names: Tung Do
+        family-names: Thanh
+      - given-names: Cuong Truong
+        family-names: Van
+    collection-title: >-
+      2022 International Conference on Multimedia Analysis and
+      Pattern Recognition (MAPR)
+    year: 2022
+    doi: 10.1109/MAPR56351.2022.9924897

@@ -1,0 +1,35 @@
+# Fetched at install time, never committed (see README > Licensing)
+third_party/
+
+# Detection cache — regenerated on demand, large
+cache/
+benchmark_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model weights and datasets are not redistributed here
+*.pt
+*.pth
+*.mp4
