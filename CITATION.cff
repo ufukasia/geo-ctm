@@ -1,16 +1,20 @@
 cff-version: 1.2.0
 title: >-
-  geo-ctm: Geometry-Constrained Character Fusion for Video
-  License Plate Recognition
+  geo-ctm: Geometry-Constrained Multi-Frame Character
+  Association for License Plate Recognition on Moving Cameras
 message: >-
-  If you use this software, please cite both this repository
-  and the CTM paper it builds on.
+  If you use this software, please cite the Sensors article
+  below, as well as the CTM paper it builds on.
 type: software
 authors:
   - given-names: Ufuk
     family-names: Asil
-    affiliation: OSTIM Technical University
+    affiliation: >-
+      Department of Software Engineering, OSTİM Technical
+      University, Ankara, Türkiye
+    orcid: 'https://orcid.org/0000-0001-6769-2097'
 repository-code: 'https://github.com/ufukasia/geo-ctm'
+url: 'https://doi.org/10.3390/s26185704'
 license: MIT
 version: 1.0.0
 date-released: '2026-07-18'
@@ -18,9 +22,40 @@ keywords:
   - license plate recognition
   - ALPR
   - multi-frame fusion
+  - character association
+  - moving camera
   - video
   - RANSAC
   - UFPR-ALPR
+preferred-citation:
+  type: article
+  title: >-
+    Geometry-Constrained Multi-Frame Character Association for
+    License Plate Recognition on Moving Cameras
+  authors:
+    - given-names: Ufuk
+      family-names: Asil
+      affiliation: >-
+        Department of Software Engineering, OSTİM Technical
+        University, Ankara, Türkiye
+      orcid: 'https://orcid.org/0000-0001-6769-2097'
+    - given-names: İlker
+      family-names: Yoncacı
+      affiliation: >-
+        Department of Software Engineering, OSTİM Technical
+        University, Ankara, Türkiye
+      orcid: 'https://orcid.org/0009-0005-4263-9632'
+  journal: Sensors
+  publisher:
+    name: MDPI
+  volume: 26
+  issue: 18
+  start: 5704
+  year: 2026
+  month: 9
+  doi: 10.3390/s26185704
+  url: 'https://www.mdpi.com/1424-8220/26/18/5704'
+  license: CC-BY-4.0
 references:
   - type: conference-paper
     title: Character Time-series Matching For Robust License Plate Recognition

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "geo-ctm"
 version = "1.0.0"
-description = "Geometry-constrained character fusion for video license plate recognition"
+description = "Geometry-constrained multi-frame character association for license plate recognition on moving cameras (Sensors 2026, doi:10.3390/s26185704)"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { file = "LICENSE" }
@@ -29,6 +29,11 @@ dependencies = [
 [project.optional-dependencies]
 benchmark = ["torch>=1.8", "torchvision>=0.9", "imutils>=0.5.4", "pandas", "matplotlib", "tqdm"]
 dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/ufukasia/geo-ctm"
+Paper = "https://doi.org/10.3390/s26185704"
+Issues = "https://github.com/ufukasia/geo-ctm/issues"
 
 [tool.setuptools]
 packages = ["geoctm"]
